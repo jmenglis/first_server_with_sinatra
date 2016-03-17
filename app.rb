@@ -1,4 +1,4 @@
-require 'Bundler' # require bundler
+require 'bundler' # require bundler
 Bundler.require # loads all the gems
 
 get '/' do
@@ -6,7 +6,7 @@ get '/' do
     :name => 'New keyboard',
     :quantity => 17,
     :description => 'Generic Keyboard',
-    :price => '5.99'
+    :price => 5.99
   }.to_json # will turn object into string // servers communicate with strings
 end
 
