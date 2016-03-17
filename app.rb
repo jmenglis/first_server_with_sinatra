@@ -2,7 +2,7 @@ require 'Bundler' # require bundler
 Bundler.require # loads all the gems
 
 get '/' do
-  phamason product = {
+  phamazon_product = {
     :name => 'New keyboard',
     :quantity => 17,
     :description => 'Generic Keyboard',
